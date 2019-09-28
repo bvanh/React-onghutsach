@@ -1318,17 +1318,11 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
         lineNumber: 12
       },
       __self: this
-    }, __jsx("div", {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 13
-      },
-      __self: this
     }, __jsx("meta", {
       charSet: "utf-8",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 13
       },
       __self: this
     }), __jsx("meta", {
@@ -1336,7 +1330,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       content: "width=device-width, initial-scale=1, shrink-to-fit=no",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 14
       },
       __self: this
     }), __jsx("link", {
@@ -1346,7 +1340,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       crossOrigin: "anonymous",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 16
       },
       __self: this
     }), __jsx("link", {
@@ -1354,7 +1348,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 18
       },
       __self: this
     }), __jsx("link", {
@@ -1362,25 +1356,25 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_2___default.a {
       rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 20
       },
       __self: this
-    }))), __jsx("body", {
+    })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 22
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 23
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_2__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 24
       },
       __self: this
     })));

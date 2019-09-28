@@ -1,0 +1,7 @@
+node_modules
+# may Mac se co file nay DS store
+.DS_Store 
+.next
+credentials
+sessions
+build

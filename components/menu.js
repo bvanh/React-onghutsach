@@ -40,7 +40,7 @@ export default class Menu extends React.Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Trang chủ</NavLink>
+                                <NavLink>Trang chủ</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
 
@@ -49,7 +49,7 @@ export default class Menu extends React.Component {
                                 </DropdownToggle>
 
                                 <DropdownMenu right>
-                                    <Link href='/danhsach'>
+                                    <Link href='/danhsach' as='/danhsach'>
                                         <DropdownItem>
                                             Ống hút cỏ
                   </DropdownItem>
@@ -69,9 +69,9 @@ export default class Menu extends React.Component {
                                 <FontAwesomeIcon icon={faUserNinja} />
                             </NavItem>
                             <Link href='/giohang'>
-                            <NavItem>
-                                <FontAwesomeIcon icon={faShoppingCart} />
-                            </NavItem>
+                                <NavItem>
+                                    <FontAwesomeIcon icon={faShoppingCart} />
+                                </NavItem>
                             </Link>
                         </Nav>
                     </Collapse>
