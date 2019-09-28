@@ -1,0 +1,85 @@
+
+.w-size17 {
+    width: 138px;
+}
+.addcart{
+    display: flex;
+    align-items: center;
+
+}
+.flex-w {
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding-top:1rem;
+}
+.of-hidden {
+    overflow: hidden;
+}
+.bg8 {
+    background-color: rgb(80, 188, 130, 0.5) ;
+}
+.size7 {
+    width: 42px;
+    height: 41px;
+}
+.color1 {
+    color: #888888;
+}
+.flex-c-m {
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+}
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+input.num-product {
+    -moz-appearance: textfield;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.size8 {
+    width: 50px;
+    height: 41px;
+}
+.size8 {
+    width: 50px;
+    height: 41px;
+}
+.m-text18 {
+    font-family: Montserrat-Regular;
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.2;
+}
+.t-center {
+    text-align: center;
+}
+input {
+    outline: none;
+    border: none !important;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.btn{
+    margin:0;
+    font-size: 1rem;
+    color: black;
+}
+.themsanpham{
+    width:42%;
+    height:2.6rem;
+    background-color:rgb(80, 188, 130, 0.5) ;
+    color:white;
+    font-size: 1.2rem;
+    border:0;
+    margin-top:1rem;
+    margin-left: 1rem;
+}

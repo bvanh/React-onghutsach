@@ -1,0 +1,26 @@
+body {
+    box-sizing: border-box;
+    font-family: "Arsenal", sans-serif !important;
+    overflow-x: hidden;
+  }
+/* header */
+  svg{
+      margin-top:.8rem;
+      margin-left: .5rem;
+  }
+  header {
+    background-image: url(../img/banner4.png);
+    height: 18rem;
+  }
+  .caption {
+    padding-top:1.5rem;
+    color: white;
+    width: 50%;
+    margin:0 auto;
+    text-align: center; 
+    text-shadow: 3px 1px 8px black ;
+  }
+  section{
+      background-image: url(../img/background-danhsach.png);
+      text-align: center;
+  }

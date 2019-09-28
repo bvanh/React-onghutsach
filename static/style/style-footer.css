@@ -1,0 +1,13 @@
+footer{
+    background-image: url(../img/footer-bg.png);
+    padding:2rem;
+    color: white;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+  }
+  #footer{
+    width: 75%;
+    margin: 0 auto !important;
+  }

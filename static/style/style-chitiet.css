@@ -1,0 +1,70 @@
+body {
+    box-sizing: border-box;
+    font-family: "Arsenal", sans-serif !important;
+    overflow-x: hidden;
+  }
+/* header */
+  svg{
+      margin-top:.8rem;
+      margin-left: .5rem;
+  }
+  header {
+    background-image: url(../img/banner3.png);
+    height: 18rem;
+  }
+  .caption {
+    padding-top:1.5rem;
+    color: white;
+    width: 50%;
+    margin:0 auto;
+    text-align: center; 
+    text-shadow: 3px 1px 8px black ;
+  }
+  /* section */
+  section{
+      background-image: url(../img/background-giohang.png)
+  }
+  /* section 1-ảnh sản phẩm vs giá */
+  .section1{
+    width:85%;
+    margin:0 auto;
+    padding-top:5rem;
+    
+  }
+  .fa-star,.fa-star-half{
+    color: #feba02;
+  }
+  p{
+    margin:0;
+    margin-bottom:.2rem !important;
+    font-size: .85rem;
+  }
+  .thongtinsanpham{
+    color: white;
+  }
+  i{
+    font-family: serif;
+    color: #ccc1c1;
+  }
+  .nav-tabs {
+    border:0;
+}
+.a {
+  color: #8c8585 !important;
+  cursor: pointer;
+}
+.active {
+  background:none !important;
+  border:0;
+  color: white !important;
+  
+}
+.motasanpham{
+  background-color: rgb(204, 204, 204,.3) ;
+  padding:2rem;
+  
+  margin-top:1rem;
+}
+.soluong{
+  font-size:.7rem !important;
+}
