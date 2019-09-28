@@ -41,31 +41,24 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return __jsx("div", {
-        className: "addcart",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, __jsx("div", {
         className: "flex-w bo5 of-hidden w-size17",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 10
         },
         __self: this
       }, __jsx("button", {
         className: "btn-num-product-down color1 flex-c-m size7 bg8 eff2",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 11
         },
         __self: this
       }, __jsx("i", {
         className: "btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }, "-")), __jsx("input", {
@@ -76,7 +69,7 @@ function (_React$Component) {
         ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 17
         },
         __self: this
       }), __jsx("button", {
@@ -84,24 +77,17 @@ function (_React$Component) {
         ,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 25
         },
         __self: this
       }, __jsx("i", {
         className: "btn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 29
         },
         __self: this
-      }, "+"))), __jsx("button", {
-        className: "themsanpham",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }, "Th\xEAm v\xE0o gi\u1ECF h\xE0ng"));
+      }, "+")));
     }
   }]);
 
@@ -287,6 +273,7 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 var danhsach = {
   items: [{
+    id: 1,
     src: './static/img/cobang1.png',
     ten: 'Ống hút cỏ tươi',
     soluong: 'Hộp 50 ống',
@@ -294,24 +281,28 @@ var danhsach = {
     gia: 60000,
     danhgia: 3
   }, {
+    id: 2,
     src: './static/img/cobang2.jpg',
     ten: 'Ống hút cỏ khô',
     soluong: 'Hộp 50 ống',
     gia: 50000,
     danhgia: 4
   }, {
+    id: 3,
     src: './static/img/cobang3.jpg',
     ten: 'Ống hút cỏ khô',
     soluong: 'Hộp 100 ống',
     gia: 100000,
     danhgia: 4
   }, {
+    id: 4,
     src: './static/img/cobang4.jpg',
     ten: 'Ống hút cỏ tươi',
     soluong: 'Hộp 250 ống',
     gia: 250000,
     danhgia: 3
   }, {
+    id: 5,
     src: './static/img/cobangkho4.jpg',
     ten: 'Ống hút cỏ khô',
     soluong: 'Hộp 500 ống',
@@ -36943,28 +36934,42 @@ function Chitiet() {
       lineNumber: 39
     },
     __self: this
-  }, "* C\xF3 th\u1EC3 s\u1EED d\u1EE5ng l\xE0m qu\xE0 t\u1EB7ng, mang \xFD ngh\u0129a s\xE2u s\u1EAFc v\u1EDBi nh\u1EEFng ng\u01B0\u1EDDi y\xEAu m\xF4i tr\u01B0\u1EDDng."), __jsx(_components_button_addcart__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, "* C\xF3 th\u1EC3 s\u1EED d\u1EE5ng l\xE0m qu\xE0 t\u1EB7ng, mang \xFD ngh\u0129a s\xE2u s\u1EAFc v\u1EDBi nh\u1EEFng ng\u01B0\u1EDDi y\xEAu m\xF4i tr\u01B0\u1EDDng."), __jsx("div", {
+    className: "addcart",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
-  })), __jsx(_components_motasanpham__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, __jsx(_components_button_addcart__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }), __jsx("button", {
+    className: "themsanpham",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     },
     __self: this
+  }, "Th\xEAm v\xE0o gi\u1ECF h\xE0ng"))), __jsx(_components_motasanpham__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
   }), __jsx(_components_danhsachsanpham__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 46
     },
     __self: this
   }))), __jsx(_components_footer__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 49
     },
     __self: this
   }));

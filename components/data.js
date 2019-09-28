@@ -1,6 +1,7 @@
 const danhsach = {
     items: [
         {
+            id:1,
             src: './static/img/cobang1.png',
             ten: 'Ống hút cỏ tươi',
             soluong: 'Hộp 50 ống',
@@ -14,6 +15,7 @@ const danhsach = {
             danhgia: 3
         },
         {
+            id:2,
             src: './static/img/cobang2.jpg',
             ten: 'Ống hút cỏ khô',
             soluong: 'Hộp 50 ống',
@@ -21,6 +23,7 @@ const danhsach = {
             danhgia: 4
         },
         {
+            id:3,
             src: './static/img/cobang3.jpg',
             ten: 'Ống hút cỏ khô',
             soluong: 'Hộp 100 ống',
@@ -28,6 +31,7 @@ const danhsach = {
             danhgia: 4
         },
         {
+            id:4,
             src: './static/img/cobang4.jpg',
             ten: 'Ống hút cỏ tươi',
             soluong: 'Hộp 250 ống',
@@ -35,6 +39,7 @@ const danhsach = {
             danhgia: 3
         },
         {
+            id:5,
             src: './static/img/cobangkho4.jpg',
             ten: 'Ống hút cỏ khô',
             soluong: 'Hộp 500 ống',

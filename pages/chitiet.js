@@ -37,7 +37,10 @@ export default function Chitiet() {
                     <div className='col-sm-6'>
                         <Chitietsanpham />
                         <i>* Có thể sử dụng làm quà tặng, mang ý nghĩa sâu sắc với những người yêu môi trường.</i>
+                        <div className='addcart'>
                         <Buttonaddcart />
+                        <button className="themsanpham">Thêm vào giỏ hàng</button>
+                        </div>
                     </div>
                     <Motasanpham />
                     <Danhsachsanpham />

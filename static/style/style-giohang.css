@@ -12,7 +12,7 @@ body {
     background-image: url(../img/banner4.png);
     height: 18rem;
   }
-  .caption {
+  .caption,h2 {
     padding-top:1.5rem;
     color: white;
     width: 50%;
@@ -23,4 +23,32 @@ body {
   section{
       background-image: url(../img/background-danhsach.png);
       text-align: center;
+  }
+  table{
+      width:85% !important;
+      margin:0 auto;
+      padding-top:2rem;
+  }
+  th, td{
+      border:0 !important;
+  }
+  thead{
+      color: white;
+      border:0;
+  }
+  tbody>tr{
+      border:2px solid gray !important;
+  }
+  tbody{
+    background-color: rgb(204, 204, 204,.3) ;
+    color: white;
+  }
+  .img-product{
+      width: 5.5rem;
+  }
+  img{
+      width: 100%;
+  }
+  .fa-star,.fa-star-half{
+    color: #feba02;
   }
