@@ -21,7 +21,7 @@ class Danhsachssanpham extends React.Component {
         const list = this.state.items;
         const printDanhsach = list.map((item, index) =>
             <Link href='/chitiet' key={index}>
-                <div className="col-sm-4 pt-1 pb-3 productItem" data-price="5-10" data-level={4} data-popularity={5} data-comment={4} data-kindhouse="canho">
+                <div className="col-sm-4 pt-1 pb-3 productItem">
                     <a className="card-title" key={index}>
                         <img src={item.src} className="card-img-top" alt="..." style={{ paddingBottom: '.5rem' }} />
                         <h5>{item.ten}(<i className='soluong'>{item.soluong}</i>)</h5>
@@ -34,6 +34,7 @@ class Danhsachssanpham extends React.Component {
             </Link>
         );
         return (
+            
             <div className="row products " style={{ paddingTop: '1rem' }} id="products1">
 
 

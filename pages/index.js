@@ -2,6 +2,9 @@ import React from 'react';
 import Head from 'next/head';
 import Menu from '../components/menu';
 import Footer from '../components/footer';
+import Carousel1 from '../components/carousel';
+import Carousel2 from '../components/carousel-onghutgao';
+import Carousel3 from '../components/carousel-onghuttre';
 const Index = () => (
     <div>
         <Head>
@@ -31,7 +34,7 @@ const Index = () => (
             {/* onghutco */}
             <div className="row section1">
                 <div className="col-lg-6">
-                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                    {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
                             <li data-target="#carouselExampleIndicators" data-slide-to={1} />
@@ -48,7 +51,8 @@ const Index = () => (
                                 <img src="static/img/onghutco3.png" className="d-block w-100" alt="..." />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <Carousel1/>
                 </div>
                 <div className="col-lg-6">
                     <h2>Ống hút cỏ</h2>
@@ -70,7 +74,7 @@ const Index = () => (
                     <button className="btn-chitiet">Xem Chi tiết</button>
                 </div>
                 <div className="col-lg-6">
-                    <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
+                    {/* <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators">
                             <li data-target="#carouselExampleIndicators2" data-slide-to={0} className="active" />
                             <li data-target="#carouselExampleIndicators2" data-slide-to={1} />
@@ -87,13 +91,14 @@ const Index = () => (
                                 <img src="static/img/onghutgao3.png" className="d-block w-100" alt="..." />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <Carousel2/>
                 </div>
             </div>
             {/* onghutre */}
             <div className="row section1">
                 <div className="col-lg-6">
-                    <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
+                    {/* <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
                         <ol className="carousel-indicators" id="itemcomment">
                             <li data-target="#carouselExampleIndicators3" data-slide-to={0} className="active" />
                             <li data-target="#carouselExampleIndicators3" data-slide-to={1} />
@@ -110,7 +115,8 @@ const Index = () => (
                                 <img src="static/img/onghuttre3.png" className="d-block w-100" alt="..." />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+                    <Carousel3/>
                 </div>
                 <div className="col-lg-6">
                     <h2>Ống hút tre</h2>
