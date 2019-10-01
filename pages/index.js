@@ -5,12 +5,11 @@ import Footer from '../components/footer';
 const Index = () => (
     <div>
         <Head>
-            <div>
-                <link rel="stylesheet" type="text/css" href="static/style/style-index.css" />
-                <link rel="stylesheet" type="text/css" href="static/style/style-menu.css" />
-                <link rel="stylesheet" type="text/css" href="static/style/style-footer.css" />
-                <title>Onghuthuuco-Trang chủ</title>
-            </div>
+            <link rel="stylesheet" type="text/css" href="static/style/style-menu.css" /> 
+            <link rel="stylesheet" type="text/css" href="static/style/style-footer.css" />
+            <link rel="stylesheet" type="text/css" href="static/style/style-index.css" />
+            <title>Onghuthuuco-Trang chủ</title>
+
         </Head>
         <header>
             <Menu />

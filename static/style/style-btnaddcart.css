@@ -1,7 +1,7 @@
 
-.w-size17 {
+/* .w-size17 {
     width: 138px;
-}
+} */
 .addcart{
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
     -ms-align-items: center;
     align-items: center;
     padding-top:1rem;
+    margin:0 !important;
 }
 .of-hidden {
     overflow: hidden;

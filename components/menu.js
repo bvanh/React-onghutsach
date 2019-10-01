@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import {
     Collapse,
     Navbar,
@@ -68,7 +69,7 @@ export default class Menu extends React.Component {
                             <NavItem>
                                 <FontAwesomeIcon icon={faUserNinja} />
                             </NavItem>
-                            <Link href='/giohang'>
+                            <Link href='/giohang'as='/danhsach'>
                                 <NavItem>
                                     <FontAwesomeIcon icon={faShoppingCart} />
                                 </NavItem>

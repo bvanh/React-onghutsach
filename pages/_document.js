@@ -18,6 +18,8 @@ class MyDocument extends Document {
                     <link href="https://fonts.googleapis.com/css?family=Arsenal:700i&display=swap" rel="stylesheet" />
                     {/* google icon */}
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+                    {/*  */}
+                
                 </Head>
                 <body>
                     <Main />
