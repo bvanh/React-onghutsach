@@ -17,6 +17,7 @@
   }
   a {
     color: white !important;
+    cursor: pointer;
   }
   .dropdown-menu {
     background-color: rgb(80, 188, 130, 0.5) !important;

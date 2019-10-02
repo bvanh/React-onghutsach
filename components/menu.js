@@ -42,28 +42,33 @@ export default class Menu extends React.Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href='/index'>
-                        Onghutsach.com
+                <Link href='/index'>
+                    <NavbarBrand>                       
+                            Onghutsach.com                       
                     </NavbarBrand>
+                    </Link>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href='/index'>
-
-                                    Trang chủ
-
+                            <Link href='/index'>
+                                <NavLink >                                   
+                                        Trang chủ                                  
                                 </NavLink>
+                                </Link>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
                                 <DropdownToggle nav caret>
                                     Sản Phẩm
                                 </DropdownToggle>
                                 <DropdownMenu right>
-                                    <DropdownItem href='/danhsach'>
+                                <Link href='/danhsach'>
+                                    <DropdownItem>
+                                        
                                         Ống hút cỏ
+                                        
                                     </DropdownItem>
-
+                                    </Link>
                                     <DropdownItem>
                                         Ống hút gạo
                   </DropdownItem>
@@ -78,10 +83,11 @@ export default class Menu extends React.Component {
                             <NavItem>
                                 <FontAwesomeIcon icon={faUserNinja} />
                             </NavItem>
-
+                            <Link href='/giohang'>
                             <NavItem >
-                                <a href='/giohang'><FontAwesomeIcon icon={faShoppingCart} /></a>
+                            <FontAwesomeIcon icon={faShoppingCart} />
                             </NavItem>
+                            </Link>
 
                         </Nav>
                     </Collapse>
