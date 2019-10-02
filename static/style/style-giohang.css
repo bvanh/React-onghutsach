@@ -13,9 +13,9 @@ body {
     height: 18rem;
   }
   .caption,h2 {
-    padding-top:1.5rem;
+    padding-top:3rem;
     color: white;
-    width: 50%;
+    width: 70%;
     margin:0 auto;
     text-align: center; 
     text-shadow: 3px 1px 8px black ;

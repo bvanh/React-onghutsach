@@ -43,7 +43,6 @@ export default function Chitiet() {
                         </div>
                     </div>
                     <Motasanpham />
-                    <Danhsachsanpham />
                 </div>
             </section>
             <Footer />

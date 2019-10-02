@@ -17,6 +17,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUserNinja } from '@fortawesome/free-solid-svg-icons'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link';
+// const MyButton = React.forwardRef(({ onClick, href }, ref) => (
+//     <a href={href} onClick={onClick} ref={ref}>
+//       Click Me
+//     </a>
+//   ))
+
 
 export default class Menu extends React.Component {
     constructor(props) {
@@ -36,25 +42,28 @@ export default class Menu extends React.Component {
         return (
             <div>
                 <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">Onghutsach.com</NavbarBrand>
+                    <NavbarBrand href='/index'>
+                        Onghutsach.com
+                    </NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink>Trang chủ</NavLink>
+                                <NavLink href='/index'>
+
+                                    Trang chủ
+
+                                </NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
-
                                 <DropdownToggle nav caret>
                                     Sản Phẩm
                                 </DropdownToggle>
-
                                 <DropdownMenu right>
-                                    <Link href='/danhsach' as='/danhsach'>
-                                        <DropdownItem>
-                                            Ống hút cỏ
-                  </DropdownItem>
-                                    </Link>
+                                    <DropdownItem href='/danhsach'>
+                                        Ống hút cỏ
+                                    </DropdownItem>
+
                                     <DropdownItem>
                                         Ống hút gạo
                   </DropdownItem>
@@ -69,11 +78,11 @@ export default class Menu extends React.Component {
                             <NavItem>
                                 <FontAwesomeIcon icon={faUserNinja} />
                             </NavItem>
-                            <Link href='/giohang'as='/danhsach'>
-                                <NavItem>
-                                    <FontAwesomeIcon icon={faShoppingCart} />
-                                </NavItem>
-                            </Link>
+
+                            <NavItem >
+                                <a href='/giohang'><FontAwesomeIcon icon={faShoppingCart} /></a>
+                            </NavItem>
+
                         </Nav>
                     </Collapse>
                 </Navbar>

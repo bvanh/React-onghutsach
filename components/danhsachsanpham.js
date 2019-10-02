@@ -223,8 +223,8 @@ class Danhsachssanpham extends React.Component {
                                     Sắp xếp theo
 </button>
                                 <div className="dropdown-menu gia12" aria-labelledby="dropdownMenu2">
-                                    <button className="dropdown-item" type="button" onclick="sortPriceLowHigh()">Giá tăng dần</button>
-                                    <button className="dropdown-item" type="button" onclick="sortPriceHighLow()">Giá giảm dần</button>
+                                    <button className="dropdown-item" type="button">Giá tăng dần</button>
+                                    <button className="dropdown-item" type="button">Giá giảm dần</button>
                                 </div>
                             </div>
                             <div className="dropdown loc2">
