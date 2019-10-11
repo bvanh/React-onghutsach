@@ -8,7 +8,7 @@ import Showimage from '../components/detail-image';
 import Chitietsanpham from '../components/detail-text';
 import Buttonaddcart from '../components/button-addcart';
 import Motasanpham from '../components/motasanpham';
-import Danhsachsanpham from '../components/danhsachsanpham'
+
 
 export default function Chitiet() {
     return (
