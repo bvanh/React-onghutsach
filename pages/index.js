@@ -34,24 +34,6 @@ const Index = () => (
             {/* onghutco */}
             <div className="row section1">
                 <div className="col-lg-6">
-                    {/* <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-                        <ol className="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-                            <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-                            <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-                        </ol>
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src="static/img/onghutco1.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghutco2.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghutco3.png" className="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                    </div> */}
                     <Carousel1/>
                 </div>
                 <div className="col-lg-6">
@@ -74,48 +56,12 @@ const Index = () => (
                     <button className="btn-chitiet">Xem Chi tiết</button>
                 </div>
                 <div className="col-lg-6">
-                    {/* <div id="carouselExampleIndicators2" className="carousel slide" data-ride="carousel">
-                        <ol className="carousel-indicators">
-                            <li data-target="#carouselExampleIndicators2" data-slide-to={0} className="active" />
-                            <li data-target="#carouselExampleIndicators2" data-slide-to={1} />
-                            <li data-target="#carouselExampleIndicators2" data-slide-to={2} />
-                        </ol>
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src="static/img/onghutgao1.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghutgao2.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghutgao3.png" className="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                    </div> */}
                     <Carousel2/>
                 </div>
             </div>
             {/* onghutre */}
             <div className="row section1">
                 <div className="col-lg-6">
-                    {/* <div id="carouselExampleIndicators3" className="carousel slide" data-ride="carousel">
-                        <ol className="carousel-indicators" id="itemcomment">
-                            <li data-target="#carouselExampleIndicators3" data-slide-to={0} className="active" />
-                            <li data-target="#carouselExampleIndicators3" data-slide-to={1} />
-                            <li data-target="#carouselExampleIndicators3" data-slide-to={2} />
-                        </ol>
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img src="static/img/onghuttre1.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghuttre2.png" className="d-block w-100" alt="..." />
-                            </div>
-                            <div className="carousel-item">
-                                <img src="static/img/onghuttre3.png" className="d-block w-100" alt="..." />
-                            </div>
-                        </div>
-                    </div> */}
                     <Carousel3/>
                 </div>
                 <div className="col-lg-6">
