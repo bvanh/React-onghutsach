@@ -16,7 +16,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/chitiet": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/danhsach": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/giohang": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
